@@ -1,1 +1,1 @@
-console.log("10+8=18");
+window.alert("Hello World");
