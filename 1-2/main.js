@@ -1,5 +1,16 @@
-let price = 100;
-console.log(price * 2);
+let num1 = 10;
+let num2 = 4;
+let result;
 
-price = 500;
-console.log(price * 2);
+result = num1 + num2;
+console.log(result);
+
+result = num1 - num2;
+console.log(result);
+
+result = num1 * num2;
+console.log(result);
+
+result = num1 % num2;
+console.log(result);
+
