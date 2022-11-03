@@ -1,7 +1,6 @@
-console,log('Hello' + 'World');
-
-let lastName = '田中';
-let firstName = '一郎';
-let fullName = lastName + firstName;
-
-console.log(fullName);
+let x = 10;
+x++;
+console.log(x);
+let y = 10;
+y--;
+console.log(y);
