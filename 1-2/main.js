@@ -1,16 +1,7 @@
-let num1 = 10;
-let num2 = 4;
-let result;
+console,log('Hello' + 'World');
 
-result = num1 + num2;
-console.log(result);
+let lastName = '田中';
+let firstName = '一郎';
+let fullName = lastName + firstName;
 
-result = num1 - num2;
-console.log(result);
-
-result = num1 * num2;
-console.log(result);
-
-result = num1 % num2;
-console.log(result);
-
+console.log(fullName);
