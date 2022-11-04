@@ -1,18 +1,8 @@
-let a = 12;
-let b = 14;
-a != 10;
-b >= 10 && b <= 20 && b%2 === 0
-
-let x = 10;
-if (x >= 10 && x <= 20) {
-    console.log('成功です');
-} else {
-    console.log('失敗です');
-}
-
-let y = 0;
-if(y % 2 === 0) {
-    console.log('偶数です');
-} else {
-    console.log('奇数です');
+let number = 0;
+while (number < 5) {
+    if (number === 3) {
+        continue;
+    }
+    console.log(number);
+    number++;
 }
