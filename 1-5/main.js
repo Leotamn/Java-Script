@@ -1,8 +1,11 @@
-function ジュース工場(果物) {
+function juicefactory() {
+    
     return ジュース;
 
-    let orangeJuice = ジュース工場('みかん');
-    let appleJuice = ジュース工場('りんご');
-    let grapeJuice = ジュース工場('ぶどう');
+    let orangeJuice = juicefactory('みかん');
+    let appleJuice = juicefactory('りんご');
+    let grapeJuice = juicefactory('ぶどう');
 }
+
+juicefactory();
 
