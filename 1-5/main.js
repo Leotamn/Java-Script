@@ -1,10 +1,6 @@
-function juicefactory() {
+function juicefactory(juice) {
     return juice;
-
-    let orangeJuice = juice('みかん');
-    let appleJuice = juice('りんご');
-    let grapeJuice = juice('ぶどう');
 }
 
-juicefactory();
-
+let orangejuice = juicefactory("みかん");
+console.log(orangejuice);
