@@ -1,5 +1,5 @@
 let scores = [10, 15, 20, 25];
-for(i = 0; i < 25; i++) {
+for(i = 0; i < scores.length; i++) {
     if(i % 2 == 0) {
      console.log("得点は" + scores[i] + "点です");
 }}
